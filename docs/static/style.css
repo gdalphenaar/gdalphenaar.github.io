@@ -1,0 +1,19 @@
+:root {
+  --bg-color: gainsboro;
+  --text-color-dark: darkslategrey;
+  --text-color-light: lightslategrey;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: var(--hf-height);
+  line-height: var(--hf-height);
+  background-color: var(--accent-02);
+  color: black;
+}
